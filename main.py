@@ -73,7 +73,7 @@ def agregar_producto_datos(inventario):
     }
 
     # solicitar id nuevo
-    id_producto = input("Introduzca nuevo ID: ").strip()
+    id_producto = input("Introduzca nuevo ID: ")
 
     # comprobar si el id ya existe
     for p in inventario.productos:

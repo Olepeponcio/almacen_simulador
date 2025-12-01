@@ -24,9 +24,11 @@ class Inventario:
     recorre la lista Producto, si encuentra coincidencia
     por id_producto
     elimina el elemento de la lista"""
+    
+    id_ = str(id_producto)
     for e in self.productos:
-      if e.id_producto == id_producto:
-        self.productos.pop(e)
+      if e.id_producto == id_:
+        self.productos.remove(e)
         
   def buscar_por_categoria(self, categoria)->list[Producto]:
     """recorre la lista de productos y devuelve una lista con 
