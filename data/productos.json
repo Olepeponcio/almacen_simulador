@@ -1,0 +1,44 @@
+[
+  {
+    "tipo": "normal",
+    "id_producto": 1,
+    "nombre": "Laptop Lenovo",
+    "categoria": "Electrónica",
+    "precio": 850.50,
+    "stock": 12
+  },
+  {
+    "tipo": "normal",
+    "id_producto": 2,
+    "nombre": "Auriculares Sony",
+    "categoria": "Electrónica",
+    "precio": 59.90,
+    "stock": 40
+  },
+  {
+    "tipo": "perecedero",
+    "id_producto": 3,
+    "nombre": "Leche Entera",
+    "categoria": "Alimentación",
+    "precio": 1.25,
+    "stock": 30,
+    "caducidad": "2025-01-15"
+  },
+  {
+    "tipo": "perecedero",
+    "id_producto": 4,
+    "nombre": "Yogur Natural",
+    "categoria": "Alimentación",
+    "precio": 0.95,
+    "stock": 50,
+    "caducidad": "2024-12-20"
+  },
+  {
+    "tipo": "normal",
+    "id_producto": 5,
+    "nombre": "Silla de Oficina",
+    "categoria": "Mobiliario",
+    "precio": 149.99,
+    "stock": 8
+  }
+]
